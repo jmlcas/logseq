@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+
+    logseq:
+        image: 'ghcr.io/logseq/logseq-webapp:latest'
+        container_name: logseq    
+        ports:
+            - "8200:80"
+            - '8443:443'
+        restart: unless-stopped
+
+     
+            
