@@ -6,6 +6,6 @@ services:
         ports:
             - "8200:80"
             - '8443:443'
-        restart: unless-stopped  
-            
+        restart: unless-stopped          
+
 
